@@ -2,6 +2,7 @@ ul {
   display: grid;
   list-style: none;
   grid-template-columns: repeat(3, 1fr);
+  padding: 0;
 }
 h1 {
   text-align: center;
@@ -20,11 +21,14 @@ body {
   background-color: #edf2f4;
 }
 input {
-  background-color: #edf2f4;
+  background-color: #ffffff;
   border: none;
   border-radius: 0.5rem;
 }
 
 input:focus-visible {
   outline: none;
+}
+figure {
+  text-align: center;
 }
